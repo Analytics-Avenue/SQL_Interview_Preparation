@@ -9,7 +9,7 @@ It allows users to:
 - Delete unwanted data
 
 In simple words:
-> SQL is how humans talk to databases.
+> SQL is how we talk to databases.
 
 ---
 
@@ -36,7 +36,7 @@ SQL translates that request into an executable query.
 
 ## Interview Perspective
 **Common Question:**  
-👉 *What is SQL?*
+→ *What is SQL?*
 
 **Answer:**  
 SQL is a standard query language used to manage and manipulate relational databases.
