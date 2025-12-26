@@ -51,7 +51,7 @@ SQL is a standard query language used to manage and manipulate relational databa
 
 
 
-# Database Basics
+# 2. Database Basics
 
 ## What is a Database?
 A database is an organized collection of structured data stored electronically.
@@ -99,3 +99,94 @@ Database → Folder
 Table → Excel sheet  
 Row → Record  
 Column → Field
+
+
+
+# 3. Types of SQL Databases
+
+## 1. Relational Databases (RDBMS)
+- Structured schema
+- Uses tables
+- Supports joins
+
+Examples:
+- MySQL
+- PostgreSQL
+- SQL Server
+
+Used in:
+- Banking
+- Analytics
+- ERP systems
+
+---
+
+## 2. NoSQL Databases
+- Schema-less
+- Handles unstructured data
+- High scalability
+
+Examples:
+- MongoDB
+- Cassandra
+
+---
+
+## SQL vs NoSQL
+
+| SQL | NoSQL |
+|----|------|
+| Structured | Semi-structured |
+| Fixed schema | Dynamic schema |
+| ACID compliant | High scalability |
+
+---
+
+## Interview Question
+**Q: When would you use NoSQL over SQL?**
+
+**A:** When handling large-scale unstructured or semi-structured data requiring flexibility and scalability.
+
+
+# 4. SQL Architecture
+
+## SQL Query Flow
+
+User Query  
+↓  
+Parser  
+↓  
+Optimizer  
+↓  
+Execution Engine  
+↓  
+Result
+
+---
+
+## Step Explanation
+
+### 1. Parser
+- Checks syntax
+- Validates objects
+
+### 2. Optimizer
+- Chooses best execution plan
+- Uses indexes
+
+### 3. Execution Engine
+- Retrieves data
+- Returns output
+
+---
+
+## Interview Question
+**Q: What does the SQL optimizer do?**
+
+**A:**  
+It selects the most efficient way to execute a query by evaluating multiple execution plans.
+
+---
+
+## Why This Matters
+Efficient queries = faster systems + happier users.
